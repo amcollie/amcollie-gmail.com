@@ -1,0 +1,20 @@
+{
+  "config": {
+    "process-timeout": 0,
+    "sort-packages": true
+  },
+  "scripts": {
+    "start": "php -S localhost:8080 -t public"
+  },
+  "require": {
+    "laminas/laminas-diactoros": "^3.3",
+    "php-di/php-di": "^7.0",
+    "slim/slim": "^4.14",
+    "smarty/smarty": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{include file="partials/book.tpl" book=$book}
